@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_windows"
+        android:title="@string/windows"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_rooms"
+        android:title="@string/rooms"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_heaters"
+        android:title="@string/heaters"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_buildings"
+        android:title="@string/buildings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_website"
+        android:title="@string/menu_website"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_email"
+        android:title="@string/menu_email"
+        app:showAsAction="never" />
+</menu>

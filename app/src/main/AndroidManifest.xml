@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.faircorp.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:screenOrientation="sensorPortrait"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Faircorp">
+        <activity
+            android:name="com.faircorp.android.WindowDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.WindowActivity" />
+        <activity
+            android:name="com.faircorp.android.BuildingDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.BuildingActivity" />
+        <activity
+            android:name="com.faircorp.android.RoomDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.RoomActivity" />
+        <activity
+            android:name="com.faircorp.android.HeaterDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.HeaterActivity" />
+        <activity
+            android:name="com.faircorp.android.HeaterActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.MainActivity" />
+        <activity
+            android:name="com.faircorp.android.MenuActivity"
+            android:exported="true"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/Theme.Faircorp.NoActionBar" />
+        <activity
+            android:name="com.faircorp.android.WindowActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.MainActivity" />
+        <activity
+            android:name="com.faircorp.android.BuildingActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.MainActivity" />
+        <activity
+            android:name="com.faircorp.android.RoomActivity"
+            android:exported="true"
+            android:parentActivityName="com.faircorp.android.MainActivity" />
+        <activity
+            android:name="com.faircorp.android.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
