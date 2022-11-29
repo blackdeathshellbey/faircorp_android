@@ -14,4 +14,7 @@ Known Issue: placements of the widgets on main layout is not perfect due to the 
 Two screenshots from the application also added to repo.
 Lastly, used resources for images are license free.
 
-Kind Regards
+![FairCorp](https://user-images.githubusercontent.com/17174907/204543438-70ac0234-de27-46a7-bec1-06bad368946f.png)
+
+![FairCorp execution](https://user-images.githubusercontent.com/17174907/204543442-884d690f-0622-4a76-8027-2107ba0d5843.png)
+
