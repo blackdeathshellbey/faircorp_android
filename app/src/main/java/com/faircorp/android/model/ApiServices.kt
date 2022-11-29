@@ -8,7 +8,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory.*
 
 const val API_USERNAME = "user"
 const val API_PASSWORD = "password"
-const val URL_LINK = "https://faircorp-client-for-android.cleverapps.io/api/"
+const val URL_LINK = "https://smartbuilding.cleverapps.io/api/"
 
 class ApiServices {
     private val userInfo = Credentials.basic(API_USERNAME, API_PASSWORD)
